@@ -4,12 +4,16 @@
 </head>
 <body>
   <a-scene embedded arjs>
-    <a-marker preset="archi.patt">
+    <a-marker preset="hiro">
+        <a-assets>
+          <img id="nekit" src="https://sun9-9.userapi.com/impf/D0H3YH1Q3qa-VNjvRfwVPe3iuRY6GcBXSm_yrw/3fq3qM2oXzY.jpg?size=1200x1600&quality=96&sign=b04352676540c8bf09b0044aca91adcb&type=album">
+        </a-assets>
       <a-entity 
       position="0 -3 0"
       rotation="-60 0 0"
       text="align: center; width: 10; color: #2AA29F; font: roboto; value: Hi Nekit">
       </a-entity>
+      <a-image src="#my-image"></a-image>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
